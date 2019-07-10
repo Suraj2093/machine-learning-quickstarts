@@ -13,6 +13,7 @@ In this quickstart, we will be using a subset of NYC Taxi & Limousine Commission
 2. Open the resource group and verify that you have access to an **Azure Machine Learning Service Workspace** named - **quick-starts-ws-XXXXX**,  here XXXXX is your unique identifier.</br></br>
 <kbd>![](images/rgml.jpg)</kbd></br>
 
+# Exercise 1: Setting up your environment
 ## Task 1: Create Azure Machine Learning Compute
 
 Create a compute target in the workspace `quick-starts-ws-XXXXX` to run your Azure Machine Learning experiments.
