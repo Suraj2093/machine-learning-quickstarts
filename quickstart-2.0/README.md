@@ -25,7 +25,8 @@ As part of this quickstart, we will be building a regression model to predict Ta
 
 # Verify the environment
 1. Login to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. Verify that you have access to one resource group.
-2. Open the resource group and verify that you have access to an **Azure Machine Learning Service Workspace** named - **quick-starts-ws-XXXXX**,  here XXXXX is your unique identifier.
+2. Open the resource group and verify that you have access to an **Azure Machine Learning Service Workspace** named - **quick-starts-ws-XXXXX**,  here XXXXX is your unique identifier.</br></br>
+<kbd>![](images/ml.jpg)</kbd></br></br>
 
 # Exercise 1: Azure Notebook VMs Setup 
 
