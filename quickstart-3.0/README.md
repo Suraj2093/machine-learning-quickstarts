@@ -8,11 +8,16 @@ Azure Machine Learning Visual Interface gives you a cloud-based interactive, vis
 
 In this quickstart, we will be using a subset of NYC Taxi & Limousine Commission - green taxi trip records available from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/). The data is enriched with holiday and weather data. Based on the enriched dataset, we will learn to use the Azure Machine Learning Graphical Interface to process data, build, train, score, and evaluate a regression model to predict NYC taxi fares. To train the model, we will create Azure Machine Learning Compute resource. We will also learn to deploy the model as a scoring webservice to Azure Kubernetes Compute. Finally, we will test the deployed webservice, and review how to consume the deployed web service. We will do all of this from the Azure Machine Learning Visual Interface without writing a single line of code.
 
+# Verify the environment
+1. Login to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. Verify that you have access to one resource group.
+2. Open the resource group and verify that you have access to an **Azure Machine Learning Service Workspace** named - **quick-starts-ws-XXXXX**,  here XXXXX is your unique identifier.</br></br>
+<kbd>![](images/rgml.jpg)</kbd></br>
+
 ## Task 1: Create Azure Machine Learning Compute
 
-Create a compute target in the workspace `quick-starts-ws` to run your Azure Machine Learning experiments.
+Create a compute target in the workspace `quick-starts-ws-XXXXX` to run your Azure Machine Learning experiments.
 
-1. Navigate to your workspace `quick-starts-ws` and select `Compute` from the `Assets` section and then select on **Add Compute**:
+1. Navigate to your workspace `quick-starts-ws-XXXXX` and select `Compute` from the `Assets` section and then select on **Add Compute**:
 
    <img src="./images/001.png" width="70%" height="70%" title="Click on Add Compute">
 
@@ -37,7 +42,7 @@ Create a compute target in the workspace `quick-starts-ws` to run your Azure Mac
 
 Next, we will create a Kubernetes Service Compute to publish the trained model as web service.
 
-1. Navigate to your workspace `quick-starts-ws` and select `Compute` from the `Assets` section and then select on **Add Compute**
+1. Navigate to your workspace `quick-starts-ws-XXXXX` and select `Compute` from the `Assets` section and then select on **Add Compute**
 
 2. On the **Add Compute**, enter the following and then select **Create**:
 
@@ -61,7 +66,7 @@ Next, we will create a Kubernetes Service Compute to publish the trained model a
 
 ## Task 1: Open Visual Interface
 
-1. Navigate to the machine learning workspace: `quick-starts-ws`
+1. Navigate to the machine learning workspace: `quick-starts-ws-XXXXX`
 2. Select `Visual interface` in the left navigation bar
 3. Select on **Launch visual interface**
 
@@ -198,7 +203,7 @@ Next, we will create a Kubernetes Service Compute to publish the trained model a
    
 1. Note that you can create a new **Compute Target** directly from **Visual Interface**
 2. Select **Select existing**
-3. Select **qs-compute** (this is the compute target we created in `quickstart-2.0`)
+3. Select **qs-compute** (this is the compute target we created earlier)
 4. Select **Run**
 5. The experiment will run for about 8-10 minutes 
 
