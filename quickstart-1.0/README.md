@@ -29,7 +29,7 @@ As part of this quickstart, we will be building a regression model to predict Ta
 1. Login to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. Verify that you have access to one resource group.
 2. Open the resource group and verify that you have access to an **Azure Machine Learning Service Workspace** named - **quick-starts-ws-XXXXX**,  here XXXXX is your unique identifier.</br></br>
 <kbd>![](images/mlrg.jpg)</kbd></br>
-3. Download the training data file [nyc-taxi-sample-data.csv](https://quickstartsws9073123377.blob.core.windows.net/azureml-blobstore-0d1c4218-a5f9-418b-bf55-902b65277b85/quickstarts/nyc-taxi-data/nyc-taxi-sample-data.csv) on your local disk.
+3. **Download** the training data file [nyc-taxi-sample-data.csv](https://quickstartsws9073123377.blob.core.windows.net/azureml-blobstore-0d1c4218-a5f9-418b-bf55-902b65277b85/quickstarts/nyc-taxi-data/nyc-taxi-sample-data.csv) on your local disk.
 
 
 # Exercise 2: Setup New Automated Machine Learning Experiment
