@@ -1,4 +1,7 @@
-# Technology overview
+# Automated Machine Learning in Azure Portal
+
+In this quickstart you will learn how to create, run, and explore automated machine learning experiments in the [Azure portal](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-create-portal-experiments) without a single line of code. You will also learn to register and deployed the best trained model, all within the Azure Portal.
+
 
 ## Automated Machine Learning with Azure Machine Learning
 Automated machine learning picks an algorithm and hyperparameters for you and generates a model ready for deployment. There are several options that you can use to configure automated machine learning experiments.
@@ -21,37 +24,15 @@ In this quickstart, you learn how to create, run, and explore automated machine 
 
 As part of this quickstart, we will be building a regression model to predict Taxi Fares in New York City. We will use a preprocessed labeled training data with features such as number of passengers, trip distance, datetime, holiday information and weather information.
 
-# Exercise 1: Setting up your environment 
+- 
 
-If a lab environment has not be provided for you, this lab provides the instructions to get started in your own Azure Subscription.
+# Verify the environment
 
-The labs have the following requirements:
-- Azure subscription. You will need a valid and active Azure account to complete this Azure lab. If you do not have one, you can sign up for a [free trial](https://azure.microsoft.com/en-us/free/).
+1. Login to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. Verify that you have access to one resource group.
+2. Open the resource group and verify that you have access to an **Azure Machine Learning Service Workspace** named - **quick-starts-ws-XXXXX**,  here XXXXX is your unique identifier.</br></br>
+<kbd>![](images/rgml.jpg)</kbd></br>
+3. Download the training data file [nyc-taxi-sample-data.csv](https://quickstartsws9073123377.blob.core.windows.net/azureml-blobstore-0d1c4218-a5f9-418b-bf55-902b65277b85/quickstarts/nyc-taxi-data/nyc-taxi-sample-data.csv) on your local disk.
 
-## Azure Quotas Required
-The quickstarts depend on the capability to utilize a certain quantity of Azure resources, for which your Azure subscription will need to have sufficient quota available. 
-
-The following are the specific quotas required, if your subscription does not meet the quota requirements in the region in which you will perform the quickstarts, you will need to request a quota increase thru Azure support:
-
-Compute-VM
-- Quota: Standard Dv2 Family vCPUs
-- Provider: Microsoft.Compute
-- SKU family: Dv2 Series
-- Required Limit: 4
-
-Compute-VM
-- Quota: Total Regional vCPUs
-- Provider: Microsoft.Compute
-- SKU family: Dv2 Series
-- Required Limit: 4
-
-# Prerequisites
-
-- If an environment is provided to you. Use the workspace named: `quick-starts-ws-XXXXX`, where `XXXXX` is your unique identifier.
-
-- If you are using your own Azure subscription. Create an Azure Machine Learning service workspace named: `quick-starts-ws`. See [Create an Azure Machine Learning Service Workspace](https://docs.microsoft.com/en-us/azure/machine-learning/service/setup-create-workspace) for details on how to create the workspace.
-
-- Download the training data file [nyc-taxi-sample-data.csv](https://quickstartsws9073123377.blob.core.windows.net/azureml-blobstore-0d1c4218-a5f9-418b-bf55-902b65277b85/quickstarts/nyc-taxi-data/nyc-taxi-sample-data.csv) on your local disk.
 
 # Exercise 2: Setup New Automated Machine Learning Experiment
 
