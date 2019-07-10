@@ -27,7 +27,7 @@ Create a compute target in the workspace `quick-starts-ws-XXXXX` to run your Azu
    
    b. Compute type: `Machine Learning Compute`
    
-   c. Region: `Select your region`
+   c. Region: Leave as default.
    
    d. Virtual machine size: `Standard_D2_v2`
    
