@@ -36,7 +36,7 @@ As part of this quickstart, we will be building a regression model to predict Ta
 
 ## Task 1: Create New Automated Machine Learning Experiment
 
-1. In Azure Portal, open the machine learning workspace: `quick-starts-ws-XXXXX` or `quick-starts-ws`
+1. In Azure Portal, open the machine learning workspace: `quick-starts-ws-XXXXX`.
 2. Select `Automated machine learning` in the left navigation bar
 3. Select **Create Experiment** from the content section
 4. This will open a `Create a new automated machine learning experiment` page
