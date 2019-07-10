@@ -60,7 +60,7 @@ Next, we will create a Kubernetes Service Compute to publish the trained model a
    
 ## Task 3: Download the training data file
 
-1. Download the training data file [nyc-taxi-sample-data.csv](https://quickstartsws9073123377.blob.core.windows.net/azureml-blobstore-0d1c4218-a5f9-418b-bf55-902b65277b85/quickstarts/nyc-taxi-data/nyc-taxi-sample-data.csv) on your local disk.</br>
+1. Download the training data file [nyc-taxi-sample-data.csv](https://quickstartsws9073123377.blob.core.windows.net/azureml-blobstore-0d1c4218-a5f9-418b-bf55-902b65277b85/quickstarts/nyc-taxi-data/nyc-taxi-sample-data.csv) on your local disk.</br></br>
 
 # Exercise 2: Upload Training Dataset in Visual Interface
 
