@@ -6,7 +6,7 @@
 Build faster with visual, automated, and code-first interfaces, use the tools and frameworks of your choice, and scale into production
 with robust MLOps.
 
-<p align="left">
+<p align="center">
   <a href="http://btfollow.com/.2tvi0" target="_blank">
     <img width="100"src="https://experienceazure.blob.core.windows.net/templates/aml-quickstarts/startfree.jpg">
 
@@ -14,6 +14,6 @@ with robust MLOps.
 </p>
 
 <p align="Center">
-<img width="800"src="https://experienceazure.blob.core.windows.net/templates/aml-quickstarts/freeinst.jpg">
+<img width="600"src="https://experienceazure.blob.core.windows.net/templates/aml-quickstarts/freeinst.jpg">
   </a>
 </p>
