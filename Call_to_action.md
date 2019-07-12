@@ -14,6 +14,6 @@ with robust MLOps.
 </p>
 
 <p align="Center">
-<img width="800"src="https://experienceazure.blob.core.windows.net/templates/aml-quickstarts/freeinst.jpg">
+<img width="900"src="https://experienceazure.blob.core.windows.net/templates/aml-quickstarts/freeinst.jpg">
   </a>
 </p>
