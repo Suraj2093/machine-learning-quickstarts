@@ -1,3 +1,13 @@
+# Getting Started
+## Log-in to the Azure Portal
+
+1. In your local machine, open a new browser window and sign in to the **Azure Portal** (<http://portal.azure.com>).</br>
+If you already have an Azure account and you are logged-in in the browser, then please use a **private browser window** to log in to Azure portal.  
+
+2. Use the azure credentials provided in the **Environment Details** tab to log in to the portal.
+
+3. Refer the **Environment Details** tab for any other lab credentials/details.
+
 # Automated Machine Learning in Azure Notebook VM
 
 This quickstart will show you how to use Automated Machine Learning with [Azure ML Python SDK](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-configure-auto-train) to train, deploy, and test the best model from within Azure Notebook VMs.
