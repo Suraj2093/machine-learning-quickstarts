@@ -1,3 +1,13 @@
+# Getting Started
+## Log-in to the Azure Portal
+
+1. In your local machine, open a new browser window and sign in to the **Azure Portal** (<http://portal.azure.com>).</br>
+If you already have an Azure account and you are logged-in in the browser, then please use a **private browser window** to log in to Azure portal.  
+
+2. Use the azure credentials provided in the **Environment Details** tab to log in to the portal.
+
+3. Refer the **Environment Details** tab for any other lab credentials/details.
+
 # Azure Machine Learning Visual Interface
 
 Azure Machine Learning Visual Interface gives you a cloud-based interactive, visual workspace that you can use to easily and quickly prep data, train and deploy machine learning models. It supports Azure Machine Learning compute, GPU or CPU. Machine Learning Visual Interface also supports publishing models as web services on Azure Kubernetes Service that can easily be consumed by other applications. To use Azure Machine Learning Studio, you do not need programming experience and this quickstart will walk you through an exercise that will show how to process training data, create a model, train, score, and evaluate the model and finally deploy the trained model as a web service.
