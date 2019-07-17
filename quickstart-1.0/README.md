@@ -1,3 +1,13 @@
+# Getting Started
+## Log-in to the Azure Portal
+
+1. In your local machine, open a new browser window and sign in to the **Azure Portal** (<http://portal.azure.com>).</br>
+If you already have an Azure account and you are logged-in in the browser, then please use a **private browser window** to log in to Azure portal.  
+
+2. Use the azure credentials provided in the **Environment Details** tab to log in to the portal.
+
+3. Refer the **Environment Details** tab for any other lab credentials/details.
+
 # Automated Machine Learning in Azure Portal
 
 In this quickstart you will learn how to create, run, and explore automated machine learning experiments in the [Azure portal](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-create-portal-experiments) without a single line of code. You will also learn to register and deployed the best trained model, all within the Azure Portal.
