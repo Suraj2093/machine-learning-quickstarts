@@ -1,16 +1,16 @@
 # Getting Started
 ## Log-in to the Azure Portal
 
-In your local machine, open a new browser window and sign in to the **Azure Portal** (<http://portal.azure.com>).</br>
+In your local machine, open a new browser window and sign in to the **[Azure Portal](<http://portal.azure.com>)**.</br>
 If you already have an Azure account and you are logged-in in the browser, then please use a **private browser window** to log in to Azure portal.  
 
 
 ### Azure Credentials
-Here are your credentials to login to Microsoft Azure and access the On Demand Lab
+Here are your credentials to login to **[Microsoft Azure](<http://portal.azure.com>)** and access the On Demand Lab
 
-Username | <inject key="AzureAdUserEmail"></inject>
------------- | -------------
-**Password** | <inject key="AzureAdUserPassword"></inject>
+**Username** : <inject key="AzureAdUserEmail"></inject>
+
+**Password** : <inject key="AzureAdUserPassword"></inject>
 
 
 # Automated Machine Learning in Azure Portal
