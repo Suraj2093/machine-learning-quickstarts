@@ -8,8 +8,6 @@ If you already have an Azure account and you are logged-in in the browser, then 
 ### Azure Credentials
 Here are your credentials to login to **[Microsoft Azure](<http://portal.azure.com>)** and access the On Demand Lab
 
-<inject key="AzureCredentials"></inject>
-
 **Username** : <inject key="AzureAdUserEmail"></inject>
 
 **Password** : <inject key="AzureAdUserPassword"></inject>
