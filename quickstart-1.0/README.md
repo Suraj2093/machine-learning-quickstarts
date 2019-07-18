@@ -7,11 +7,11 @@ If you already have an Azure account and you are logged-in in the browser, then 
 
 ### Azure Credentials
 Here are your credentials to login to Microsoft Azure and access the On Demand Lab
-
+```
 **Username** :  <inject key="AzureAdUserEmail"></inject>
 
 **Password** :  <inject key="AzureAdUserPassword"></inject>
-
+```
 
 # Automated Machine Learning in Azure Portal
 
