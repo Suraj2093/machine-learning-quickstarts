@@ -165,7 +165,7 @@ As part of this quickstart, we will be building a regression model to predict Ta
      * Deployment name: `nyc-taxi-predict`
      * Deployment description: `Predict NYC Taxi Fares!`</br>
    
-   <kbd>![](images/deploymodel.jpg)</kbd>
+   </br><kbd>![](images/deploymodel.jpg)</kbd>
 
 4. The model deployment, will register the model, create the deployment image, and deploy it as a scoring webservice in an Azure Container Instance (ACI). The entire deployment process can take up to 20 minutes.
 
