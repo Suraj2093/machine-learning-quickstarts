@@ -164,12 +164,12 @@ As part of this quickstart, we will be building a regression model to predict Ta
 
      * Deployment name: `nyc-taxi-predict`
      * Deployment description: `Predict NYC Taxi Fares!`
-Deploy Best Model
+   <kbd>![](images/deploymodel.jpg)</kbd>
 4. The model deployment, will register the model, create the deployment image, and deploy it as a scoring webservice in an Azure Container Instance (ACI). The entire deployment process can take up to 20 minutes.
 
 5. To view the deployed model, from the Azure Machine Learning workspace select Deployments.
 
-Deployed Models
+   <kbd>![](images/deployments.jpg)</kbd>
 
 # Exercise 8: Challenge Experiment
 
