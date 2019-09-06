@@ -163,7 +163,7 @@ As part of this quickstart, we will be building a regression model to predict Ta
 3. Provide the Deployment name, and Deployment description, and then select Deploy as shown:
 
      * Deployment name: `nyc-taxi-predict`
-     * Deployment description: `Predict NYC Taxi Fares!`
+     * Deployment description: `Predict NYC Taxi Fares!`</br>
    
    <kbd>![](images/deploymodel.jpg)</kbd>
 
