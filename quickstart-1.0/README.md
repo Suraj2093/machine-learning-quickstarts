@@ -1,3 +1,8 @@
+# Automated Machine Learning in Azure Portal
+
+In this quickstart you will learn how to create, run, and explore automated machine learning experiments in the [Azure portal](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-create-portal-experiments) without a single line of code. You will also learn to register and deployed the best trained model, all within the Azure Portal.
+
+
 ## Automated Machine Learning with Azure Machine Learning
 Automated machine learning picks an algorithm and hyperparameters for you and generates a model ready for deployment. There are several options that you can use to configure automated machine learning experiments.
 
