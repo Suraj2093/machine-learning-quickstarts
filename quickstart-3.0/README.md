@@ -1,3 +1,21 @@
+# Getting Started
+## Log-in to the Azure Portal
+
+In your local machine, open a new browser window and sign in to the **Azure Portal** (<http://portal.azure.com>).</br>
+If you already have an Azure account and you are logged-in in the browser, then please use a **private browser window** to log in to Azure portal.  
+
+### Azure Credentials
+Here are your credentials to login to **[Microsoft Azure](<http://portal.azure.com>)** and access the On Demand Lab
+
+**Username** : <inject key="AzureAdUserEmail"></inject>
+
+**Password** : <inject key="AzureAdUserPassword"></inject>
+
+
+# Azure Machine Learning Visual Interface
+
+Azure Machine Learning Visual Interface gives you a cloud-based interactive, visual workspace that you can use to easily and quickly prep data, train and deploy machine learning models. It supports Azure Machine Learning compute, GPU or CPU. Machine Learning Visual Interface also supports publishing models as web services on Azure Kubernetes Service that can easily be consumed by other applications. To use Azure Machine Learning Studio, you do not need programming experience and this quickstart will walk you through an exercise that will show how to process training data, create a model, train, score, and evaluate the model and finally deploy the trained model as a web service.
+
 # Quickstart Overview
 
 [Azure Machine Learning designer](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-designer) (preview) gives you a cloud-based interactive, visual workspace that you can use to easily and quickly prep data, train and deploy machine learning models. It supports Azure Machine Learning compute, GPU or CPU. Machine Learning designer also supports publishing models as web services on Azure Kubernetes Service that can easily be consumed by other applications.
